@@ -1,35 +1,16 @@
 namespace = genPlus
+add_genPlus = yes
 character_event = {
 	id = genPlus.0001
-	desc = "Holy shit my kid is fucking strong man"
 	
+	hidden = yes
 	is_triggered_only = yes
 	
-	trigger = {
-		AND = {
-			true_father_even_if_dead = {
-				trait = quick
-			}
-			mother_even_if_dead = {
-				trait = quick
-			}
-		}
-	}
-	
 	immediate = {
-		random = {
-			chance = 100
-			add_trait = strong
-		}
+		add_genPlus
 	}
-	
-	option = {
-		name = "Weow"
-	}
-	
-	
 }
-	
+
 
 
 #I'd replace "mother" with "mother_even_if_dead" and the OR block with a "true_father_even_if_dead" check to ensure that nothing breaks if a parent is dead and that the public father being quick doesn't matter if he isn't the real father.

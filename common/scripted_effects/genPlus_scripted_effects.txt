@@ -1,0 +1,22 @@
+#Ree
+
+add_genPlus = {
+	if = {
+		limit = {
+			AND = {
+				true_father_even_if_dead = {
+					trait = quick
+				}
+				mother_even_if_dead = {
+					trait = quick
+				}
+			}
+		}
+		
+		random = {
+			chance = 100
+			add_trait = strong
+		}	
+		
+	}
+}

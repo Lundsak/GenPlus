@@ -1,6 +1,0 @@
-# character
-on_birth = {
-	events = {
-		genPlus.0001 # The main event that checks if both parents have the same genetic trait
-	}
-}
