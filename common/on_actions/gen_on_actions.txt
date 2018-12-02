@@ -1,0 +1,8 @@
+on_birth = {
+	events = {
+		genPlus.0001
+	}
+	random_events = {
+
+	}
+}
