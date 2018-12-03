@@ -15,8 +15,34 @@ add_genPlus = {
 		
 		random = {
 			chance = 100
-			add_trait = strong
-		}	
-		
+			remove_trait = quick
+			add_trait = genius
+		}
 	}
+	
+	else_if = {
+		limit = {
+			AND = {
+				true_father_even_if_dead = {
+					trait = strong
+				}
+				mother_even_if_dead = {
+					trait = strong
+				}
+			}
+		}
+		
+		random = {
+			chance = 100
+			add_trait = genius
+		}
+	}
+	
+
+	
+	
+	
+	
+	
+	
 }
