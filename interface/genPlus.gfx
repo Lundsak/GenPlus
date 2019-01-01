@@ -1,11 +1,38 @@
 spriteTypes = {
+	#Strength traits
 	spriteType = {
-		name = "GFX_trait_semi_strong"
-		texturefile = "gfx/traits/strong.dds"
+		name = "GFX_trait_very_weak"
+		texturefile = "gfx/traits/very_weak.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+	
+	spriteType = {
+		name = "GFX_trait_semi_weak"
+		texturefile = "gfx/traits/semi_weak.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_semi_strong"
+		texturefile = "gfx/traits/semi_strong.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_very_strong"
+		texturefile = "gfx/traits/very_strong.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+
 
 
 }

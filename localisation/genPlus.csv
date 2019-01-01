@@ -1,4 +1,12 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 PICK_YOUR_STARTING_ERA;Choose Your lit thing Era;;;;;;;;;;;;;x
+
+#Strength traits
+very_weak;Very Weak;;;;;;;;;;;;;x
+very_weak_desc;This character is weak as a kitten;;;;;;;;;;;;;x
+semi_weak;Semi Weak;;;;;;;;;;;;;x
+semi_weak_desc;This character is just below average strength;;;;;;;;;;;;;x
 semi_strong;Semi Strong;;;;;;;;;;;;;x
-semi_strong_desc;This charachter can be considered as semi strong;;;;;;;;;;;;;x
+semi_strong_desc;This character can be considered as semi strong;;;;;;;;;;;;;x
+very_strong;Very Strong;;;;;;;;;;;;;x
+very_strong_desc;This character is brutally strong;;;;;;;;;;;;;x
