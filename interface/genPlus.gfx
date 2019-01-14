@@ -32,7 +32,14 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	
-
+	#Intelligence  traits
+	spriteType = {
+		name = "GFX_trait_dullness"
+		texturefile = "gfx/traits/dullness.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
 
 
 }

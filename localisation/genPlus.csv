@@ -10,3 +10,7 @@ semi_strong;Semi Strong;;;;;;;;;;;;;x
 semi_strong_desc;This character can be considered as semi strong;;;;;;;;;;;;;x
 very_strong;Very Strong;;;;;;;;;;;;;x
 very_strong_desc;This character is brutally strong;;;;;;;;;;;;;x
+
+#Intelligence  traits
+dullness;Dull;;;;;;;;;;;;;x
+dullness_desc;This character is just a little dumb;;;;;;;;;;;;;x

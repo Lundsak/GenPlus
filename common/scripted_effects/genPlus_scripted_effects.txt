@@ -1,45 +1,218 @@
 #Ree
 
 add_genPlus = {
-	if = {
+	if = { #Strength traits
 		limit = {
-			AND = {
-				true_father_even_if_dead = {
-					trait = quick
+			OR = {
+				AND = {
+					true_father_even_if_dead = {
+						trait = weak
+					}
+					mother_even_if_dead = {
+						trait = weak
+					}
 				}
-				mother_even_if_dead = {
-					trait = quick
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = very_weak
+					}
+					mother_even_if_dead = {
+						trait = weak
+					}
 				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = weak
+					}
+					mother_even_if_dead = {
+						trait = very_weak
+					}
+				}
+			
 			}
 		}
 		
 		random = {
 			chance = 100
-			remove_trait = quick
-			add_trait = genius
+			add_trait = very_weak
+		}
+		
+		random = {
+			chance = 1
+			add_trait = semi_weak
 		}
 	}
 	
-	else_if = {
+	else_if = {#Strength traits
 		limit = {
-			AND = {
-				true_father_even_if_dead = {
-					trait = strong
+			OR = {
+				AND = {
+					true_father_even_if_dead = {
+						trait = semi_weak
+					}
+					mother_even_if_dead = {
+						trait = semi_weak
+					}
 				}
-				mother_even_if_dead = {
-					trait = strong
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = semi_weak
+					}
+					mother_even_if_dead = {
+						trait = weak
+					}
 				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = weak
+					}
+					mother_even_if_dead = {
+						trait = semi_weak
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = very_weak
+					}
+					mother_even_if_dead = {
+						trait = semi_weak
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = semi_weak
+					}
+					mother_even_if_dead = {
+						trait = very_weak
+					}
+				}
+			
 			}
 		}
 		
 		random = {
 			chance = 100
-			add_trait = genius
+			add_trait = weak
+		}
+		
+		random = {
+			chance = 1
+			add_trait = very_weak
+		}
+	}
+	
+	else_if = { #Strength traits
+		limit = {
+			OR = {
+				AND = {
+					true_father_even_if_dead = {
+						trait = strong
+					}
+					mother_even_if_dead = {
+						trait = strong
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = very_strong
+					}
+					mother_even_if_dead = {
+						trait = strong
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = strong
+					}
+					mother_even_if_dead = {
+						trait = very_strong
+					}
+				}
+			
+			}
+		}
+		
+		random = {
+			chance = 100
+			add_trait = very_strong
+		}
+		
+		random = {
+			chance = 1
+			add_trait = semi_strong
 		}
 	}
 	
 
-	
+	else_if = {#Strength traits
+		limit = {
+			OR = {
+				AND = {
+					true_father_even_if_dead = {
+						trait = semi_strong
+					}
+					mother_even_if_dead = {
+						trait = semi_strong
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = semi_strong
+					}
+					mother_even_if_dead = {
+						trait = strong
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = strong
+					}
+					mother_even_if_dead = {
+						trait = semi_strong
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = very_strong
+					}
+					mother_even_if_dead = {
+						trait = semi_strong
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = semi_strong
+					}
+					mother_even_if_dead = {
+						trait = very_strong
+					}
+				}
+			
+			}
+		}
+		
+		random = {
+			chance = 100
+			add_trait = strong
+		}
+		
+		random = {
+			chance = 1
+			add_trait = very_strong
+		}
+	}
 	
 	
 	
