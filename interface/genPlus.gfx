@@ -40,6 +40,14 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+	
+	spriteType = {
+		name = "GFX_trait_shrewdness"
+		texturefile = "gfx/traits/shrewdness.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
 
 
 }

@@ -214,8 +214,324 @@ add_genPlus = {
 		}
 	}
 	
+	else_if = { #Strength traits
+		limit = {
+			OR = {
+				AND = {
+					true_father_even_if_dead = {
+						trait = strong
+					}
+					mother_even_if_dead = {
+						trait = weak
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = weak
+					}
+					mother_even_if_dead = {
+						trait = strong
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = very_strong
+					}
+					mother_even_if_dead = {
+						trait = very_weak
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = very_weak
+					}
+					mother_even_if_dead = {
+						trait = very_strong
+					}
+				}
+			
+			}
+		}
+		
+		random = {
+			chance = 50
+			add_trait = semi_strong
+		}
+		
+		random = {
+			chance = 50
+			add_trait = semi_weak
+		}
+	}
 	
+	if = { #Intelligence traits
+		limit = {
+			OR = {
+				AND = {
+					true_father_even_if_dead = {
+						trait = slow
+					}
+					mother_even_if_dead = {
+						trait = slow
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = imbecile
+					}
+					mother_even_if_dead = {
+						trait = slow
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = slow
+					}
+					mother_even_if_dead = {
+						trait = imbecile
+					}
+				}
+			
+			}
+		}
+		
+		random = {
+			chance = 100
+			add_trait = imbecile
+		}
+		
+		random = {
+			chance = 1
+			add_trait = dullness
+		}
+	}
 	
+	else_if = {#Intelligence traits
+		limit = {
+			OR = {
+				AND = {
+					true_father_even_if_dead = {
+						trait = dullness
+					}
+					mother_even_if_dead = {
+						trait = dullness
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = dullness
+					}
+					mother_even_if_dead = {
+						trait = slow
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = slow
+					}
+					mother_even_if_dead = {
+						trait = dullness
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = imbecile
+					}
+					mother_even_if_dead = {
+						trait = dullness
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = dullness
+					}
+					mother_even_if_dead = {
+						trait = imbecile
+					}
+				}
+			
+			}
+		}
+		
+		random = {
+			chance = 100
+			add_trait = slow
+		}
+		
+		random = {
+			chance = 1
+			add_trait = imbecile
+		}
+	}
 	
+	else_if = { #Intelligence traits
+		limit = {
+			OR = {
+				AND = {
+					true_father_even_if_dead = {
+						trait = quick
+					}
+					mother_even_if_dead = {
+						trait = quick
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = genius
+					}
+					mother_even_if_dead = {
+						trait = quick
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = quick
+					}
+					mother_even_if_dead = {
+						trait = genius
+					}
+				}
+			
+			}
+		}
+		
+		random = {
+			chance = 100
+			add_trait = genius
+		}
+		
+		random = {
+			chance = 1
+			add_trait = shrewdness
+		}
+	}
 	
+
+	else_if = {#Strength traits
+		limit = {
+			OR = {
+				AND = {
+					true_father_even_if_dead = {
+						trait = shrewdness
+					}
+					mother_even_if_dead = {
+						trait = shrewdness
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = shrewdness
+					}
+					mother_even_if_dead = {
+						trait = quick
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = quick
+					}
+					mother_even_if_dead = {
+						trait = shrewdness
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = genius
+					}
+					mother_even_if_dead = {
+						trait = shrewdness
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = shrewdness
+					}
+					mother_even_if_dead = {
+						trait = genius
+					}
+				}
+			
+			}
+		}
+		
+		random = {
+			chance = 100
+			add_trait = quick
+		}
+		
+		random = {
+			chance = 1
+			add_trait = genius
+		}
+	}
+	
+	else_if = { #Intelligence traits
+		limit = {
+			OR = {
+				AND = {
+					true_father_even_if_dead = {
+						trait = quick
+					}
+					mother_even_if_dead = {
+						trait = slow
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = slow
+					}
+					mother_even_if_dead = {
+						trait = quick
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = genius
+					}
+					mother_even_if_dead = {
+						trait = imbecile
+					}
+				}
+				
+				AND = {
+					true_father_even_if_dead = {
+						trait = imbecile
+					}
+					mother_even_if_dead = {
+						trait = genius
+					}
+				}
+			
+			}
+		}
+		
+		random = {
+			chance = 50
+			add_trait = shrewdness
+		}
+		
+		random = {
+			chance = 50
+			add_trait = dullness
+		}
+	}
+	
+
 }

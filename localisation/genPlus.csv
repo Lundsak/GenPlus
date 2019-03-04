@@ -14,3 +14,5 @@ very_strong_desc;This character is brutally strong;;;;;;;;;;;;;x
 #Intelligence  traits
 dullness;Dull;;;;;;;;;;;;;x
 dullness_desc;This character is just a little dumb;;;;;;;;;;;;;x
+shrewdness;Shrewd;;;;;;;;;;;;;x
+shrewdness_desc;This character is kind of smart;;;;;;;;;;;;;x

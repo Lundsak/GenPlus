@@ -163,6 +163,8 @@ imbecile = {
 	
 	opposites =  {
 		slow
+		dullness
+		shrewdness
 		quick
 		genius
 	}
@@ -192,6 +194,8 @@ slow = {
 	
 	opposites =  {
 		imbecile
+		dullness
+		shrewdness
 		quick
 		genius
 	}
@@ -218,10 +222,12 @@ dullness = {
 	
 	opposites =  {
 		imbecile
+		slow
+		shrewdness
 		quick
 		genius
 	}
-	combat_rating = -5 #new value!
+	combat_rating = -2 #new value!
 
 	diplomacy = -1
 	intrigue = -1
@@ -238,6 +244,28 @@ dullness = {
 	child_insult_adj = INSULT_STUPID
 }
 
+shrewdness = {
+	birth = 100
+	inherit_chance = 15
+	
+	opposites =  {
+		imbecile
+		slow
+		dullness
+		quick
+		genius
+	}
+	combat_rating = 2 #new value!
+
+	diplomacy = 1
+	intrigue = 1
+	stewardship = 1
+	martial = 1
+	learning = 1
+	
+	ai_rationality = 10
+}
+
 quick = {
 	birth = 100
 	inherit_chance = 15
@@ -245,6 +273,8 @@ quick = {
 	opposites =  {
 		imbecile
 		slow
+		dullness
+		shrewdness
 		genius
 	}
 	combat_rating = 5 #new value!
@@ -265,6 +295,8 @@ genius = {
 	opposites =  {
 		imbecile
 		slow
+		dullness
+		shrewdness
 		quick
 	}
 	
